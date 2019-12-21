@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="net.thandana.simplesqlite.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextIcon"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/enter_name" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorTextIcon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:hint="@string/name_hint"/>
+
+    <Button
+        android:id="@+id/btn_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:text="@string/store_name"/>
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:text="@string/get_name"/>
+
+    <TextView
+        android:id="@+id/tv_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorTextIcon"
+        android:textSize="20sp"
+        android:text="@string/stored_name" />
+
+</LinearLayout>

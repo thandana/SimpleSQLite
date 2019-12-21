@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple SQLite</string>
+
+    <string name="enter_name">Enter your Name to store in SQLite</string>
+    <string name="name_hint">Enter Your Name</string>
+    <string name="store_name">Store Name in SQLite</string>
+    <string name="get_name">Get Name from SQLite</string>
+    <string name="stored_name">Stored Your Name from SQLite</string>
+</resources>
